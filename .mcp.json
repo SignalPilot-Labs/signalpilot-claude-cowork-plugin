@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "signalpilot": {
+      "type": "http",
+      "url": "https://gateway.signalpilot.ai/mcp",
+      "timeout": 600000
+    }
+  }
+}

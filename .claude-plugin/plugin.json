@@ -1,0 +1,12 @@
+{
+  "name": "signalpilot-agent",
+  "version": "0.1.0",
+  "description": "Delegate data analysis to a SignalPilot agent from Claude Code: launch, watch, collect the report and artifacts, write a local report. Signs in with your SignalPilot account over OAuth.",
+  "author": {
+    "name": "SignalPilot Labs",
+    "url": "https://github.com/SignalPilot-Labs"
+  },
+  "repository": "https://github.com/SignalPilot-Labs/signalpilot-claude-cowork-plugin",
+  "license": "Apache-2.0",
+  "keywords": ["signalpilot", "analytics", "data", "mcp", "agent", "report"]
+}

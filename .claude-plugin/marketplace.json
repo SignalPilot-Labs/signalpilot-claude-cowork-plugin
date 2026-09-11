@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "signalpilot-agent",
+  "version": "0.1.0",
+  "description": "SignalPilot agent delegation for Claude Code",
+  "owner": {
+    "name": "SignalPilot Labs",
+    "email": "support@signalpilot.dev"
+  },
+  "plugins": [
+    {
+      "name": "signalpilot-agent",
+      "description": "Delegate data analysis to a SignalPilot agent: launch, watch, collect the report and artifacts, write a local report.",
+      "source": "./",
+      "category": "data"
+    }
+  ]
+}
