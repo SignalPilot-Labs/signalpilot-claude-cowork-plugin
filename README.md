@@ -8,13 +8,28 @@ SignalPilot MCP server (OAuth sign-in, no API key) and two skills:
 
 ## Install
 
+### Claude Desktop / Claude Cowork
+
+1. Open **Plugins**.
+2. Click **Add**, then **Add marketplace**.
+3. Paste this repository URL:
+
+   ```
+   https://github.com/SignalPilot-Labs/signalpilot-claude-cowork-plugin
+   ```
+
+4. Install **SignalPilot Agent** from the new marketplace.
+5. Sign in when asked. Your browser opens the SignalPilot sign-in. Pick your organization
+   on the consent screen.
+
+### Claude Code (terminal)
+
 ```bash
 claude plugin marketplace add SignalPilot-Labs/signalpilot-claude-cowork-plugin
 claude plugin install signalpilot-agent@signalpilot-agent
 ```
 
-Then sign in once: run `/mcp`, select `signalpilot`, choose Authenticate. Your browser opens
-the SignalPilot sign-in. Pick your organization on the consent screen.
+Then sign in once: run `/mcp`, select `signalpilot`, choose Authenticate.
 
 The MCP server is `https://gateway.signalpilot.ai/mcp`.
 
