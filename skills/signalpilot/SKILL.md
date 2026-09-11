@@ -25,12 +25,6 @@ The MCP tools you use:
 Do not call the other SignalPilot tools (`query_database`, `schema_*`, `dbt_*`) for an
 analysis request. Delegate to the agent.
 
-## Communication style
-
-Use ASD-STE100 Simplified Technical English with the user. Short sentences. One
-fact per sentence. Active voice. No em dashes. Give numbers as the agent gave them.
-Do not change or round a number.
-
 ## Procedure
 
 Follow these steps in order. Do not skip a step.
